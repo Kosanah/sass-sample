@@ -1,0 +1,11 @@
+$brand: #0b4f6c;
+$gap: 1rem;
+$radius: 8px;
+
+@mixin card {
+  padding: $gap;
+  border: 1px solid #ccc;
+  border-radius: $radius;
+}
+
+.card { @include card; color: $brand;}
